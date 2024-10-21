@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     margin: 0 15%;
     background-color: black;
     display: flex;
@@ -9,6 +9,11 @@ body {
 /* common */
 .hero, .footer {
     background-color: #1F2937;
+}
+
+.section {
+    flex: 1;
+    padding: 0 10%;
 }
 
 ul {
@@ -30,11 +35,6 @@ button {
 }
 
 /* section 1 */
-.hero {
-    flex: 1;
-    padding: 0 10%;
-}
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -78,9 +78,7 @@ button {
 
 /* section 2 */
 .information {
-    flex: 1;
-    padding: 0 10%;
-    background-color: white;
+   background-color: white;
 }
 
 .info-header {
@@ -114,6 +112,30 @@ button {
     border: 5px solid #3882F6;
     border-radius: 10%;
     margin: 8px 0;
+}
+
+/* section 3 */
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 20%;
+}
+
+.quote p {
+    margin: 0;
+}
+
+.quote-text {
+    color: #1F2937;
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
 }
 
 /* footer */
