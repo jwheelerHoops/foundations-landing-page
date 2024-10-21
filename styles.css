@@ -11,9 +11,18 @@ body {
     background-color: #1F2937;
 }
 
+.information, .sign-up {
+    background-color: white;
+ }
+
 .section {
     flex: 1;
     padding: 0 10%;
+}
+
+.heading {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 ul {
@@ -29,9 +38,12 @@ a {
 button {
     background-color: #3882F6;
     color: #E5E7EB;
-    margin: 6px 0;
-    padding: 5px 24px;
-    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 12px 0;
+    padding: 8px 32px;
+    border: 0px;
+    border-radius: 10px;
 }
 
 /* section 1 */
@@ -39,11 +51,6 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.header-logo {
-    font-size: 24px;
-    color: #F9FAF8;
 }
 
 .title {
@@ -77,10 +84,6 @@ button {
 }
 
 /* section 2 */
-.information {
-   background-color: white;
-}
-
 .info-header {
     color: #1F2937;
     font-size: 36px;
@@ -136,6 +139,27 @@ button {
     font-size: 24px;
     font-weight: 700;
     text-align: right;
+}
+
+/* section 4 */
+.call-to-action {
+    background-color: #3882F6;
+    margin: 100px 0;
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+    border-radius: 10px;
+}
+
+.cta-text {
+    margin: 4px;
+    color: #E5E7EB;
+}
+
+.cta-button {
+    border: 2px solid #E5E7EB;
 }
 
 /* footer */
